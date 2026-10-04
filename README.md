@@ -22,5 +22,9 @@
 
 ## 繳交
 
-在作業的場景檔上按右鍵 ▸ **Export Package**，匯出 `.unitypackage`，檔名用 `學號_姓名`。
-詳細步驟看各作業投影片的「繳交」頁。
+1. 在 Unity 裡 **Ctrl + S** 存檔，然後關掉 Unity
+2. 打開專案資料夾（當初解壓縮、用開啟舊專案打開的那個）
+3. 同時選取 **Assets、Packages、ProjectSettings** 三個資料夾
+4. 按右鍵 ▸ **壓縮為 ZIP 檔案**，檔名改成 `學號_姓名.zip` 後上傳
+
+Library、Temp、Logs 這些資料夾不要放進去，它們很大，Unity 會自己重建。
